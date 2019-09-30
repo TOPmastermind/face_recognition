@@ -1,0 +1,3 @@
+/Users/cuongpham/Documents/work/face_recognition/build/CMakeFiles/rebuild_cache.dir
+/Users/cuongpham/Documents/work/face_recognition/build/CMakeFiles/edit_cache.dir
+/Users/cuongpham/Documents/work/face_recognition/build/CMakeFiles/main.dir
