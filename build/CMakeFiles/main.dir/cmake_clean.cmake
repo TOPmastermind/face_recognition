@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/face_recognition.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o"
   "main"
   "main.pdb"

@@ -123,6 +123,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+face_recognition.o: face_recognition.cpp.o
+
+.PHONY : face_recognition.o
+
+# target to build an object file
+face_recognition.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/face_recognition.cpp.o
+.PHONY : face_recognition.cpp.o
+
+face_recognition.i: face_recognition.cpp.i
+
+.PHONY : face_recognition.i
+
+# target to preprocess a source file
+face_recognition.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/face_recognition.cpp.i
+.PHONY : face_recognition.cpp.i
+
+face_recognition.s: face_recognition.cpp.s
+
+.PHONY : face_recognition.s
+
+# target to generate assembly for a file
+face_recognition.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/face_recognition.cpp.s
+.PHONY : face_recognition.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... face_recognition.o"
+	@echo "... face_recognition.i"
+	@echo "... face_recognition.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
